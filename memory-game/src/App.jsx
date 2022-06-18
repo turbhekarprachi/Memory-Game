@@ -3,23 +3,23 @@ import Card from "../components/Card";
 
 import "./App.css";
 const small = [
-  { src: "/img/helmet-1.png", matched: false },
-  { src: "/img/potion-1.png", matched: false },
+  { src: "img/helmet-1.png", matched: false },
+  { src: "img/potion-1.png", matched: false },
 ];
 
 const medium = [
-  { src: "/img/helmet-1.png", matched: false },
-  { src: "/img/potion-1.png", matched: false },
-  { src: "/img/ring-1.png", matched: false },
-  { src: "/img/scroll-1.png", matched: false },
+  { src: "img/helmet-1.png", matched: false },
+  { src: "img/potion-1.png", matched: false },
+  { src: "img/ring-1.png", matched: false },
+  { src: "img/scroll-1.png", matched: false },
 ];
 const large = [
-  { src: "/img/helmet-1.png", matched: false },
-  { src: "/img/potion-1.png", matched: false },
-  { src: "/img/ring-1.png", matched: false },
-  { src: "/img/scroll-1.png", matched: false },
-  { src: "/img/shield-1.png", matched: false },
-  { src: "/img/sword-1.png", matched: false },
+  { src: "img/helmet-1.png", matched: false },
+  { src: "img/potion-1.png", matched: false },
+  { src: "img/ring-1.png", matched: false },
+  { src: "img/scroll-1.png", matched: false },
+  { src: "img/shield-1.png", matched: false },
+  { src: "img/sword-1.png", matched: false },
 ];
 function App() {
   const [cards, setCards] = useState([]);
@@ -80,7 +80,7 @@ function App() {
   console.log(cards);
   return (
     <div className="App">
-      <h1>Memory Game</h1>
+      <h1>Memory Game </h1>
       <button onClick={suffledCard}>New Game</button>
       <select onChange={updateLevel}>
         <option value="small">small</option>
